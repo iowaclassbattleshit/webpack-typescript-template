@@ -1,12 +1,10 @@
 "use strict";
 exports.__esModule = true;
 var Player = /** @class */ (function () {
-    function Player(ctx) {
-        this.ctx = ctx;
+    function Player() {
     }
-    Player.prototype.drawPlayer = function () {
-        gameContext.fillStyle = "red";
-        gameContext.fillRect(0, 0, 150, 75);
+    Player.prototype["do"] = function () {
+        console.log("hey");
     };
     return Player;
 }());
