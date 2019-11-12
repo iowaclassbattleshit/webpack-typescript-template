@@ -1,6 +1,10 @@
-import { Player } from "./classes/player.class";
 import "./styles/styles.scss"
+import { Gamemap } from "./classes/map.class";
+import { Player } from "./classes/player.class";
 
-const i = new Player;
-i.do();
-i.do();
+const map = new Gamemap(document.body);
+const player = new Player;
+
+map.initMap();
+
+player.drawPlayer(map.context);
