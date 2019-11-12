@@ -8,7 +8,7 @@ export class Player {
     public ctx: CanvasRenderingContext2D;
 
     public drawPlayer(): void {
-        gameContext.fillStyle = "red";
-        gameContext.fillRect(0, 0, 150, 75);
+        this.ctx.fillStyle = "red";
+        this.ctx.fillRect(0, 0, 150, 75);
     }
 }
