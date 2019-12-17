@@ -34,7 +34,9 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Hey"
+      hash: true,
+      filename: './index.html',
+      title: "Hello"
     })
   ]
 };

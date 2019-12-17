@@ -23,6 +23,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "webpack-html-plugin": "^0.1.1"
   }
 }
