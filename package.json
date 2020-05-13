@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:dev",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production"
+    "build:dev": "npx webpack --mode=development",
+    "build:prod": "npx webpack --mode=production"
   },
   "keywords": [],
   "author": "",
